@@ -1,0 +1,158 @@
+                .main-body {
+                    background-image: url("KSHPRIME (3).png");
+                    background-repeat: no-repeat;
+                }
+                
+                .title2 {
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                
+                .title1 {
+                    font-size: 100px;
+                    font-weight: bold;
+                    font-family: "Exwayer";
+                }
+                
+                @media(max-width:900px) {
+                    .title1 {
+                        font-size: 50px;
+                        font-weight: bold;
+                        font-family: "Exwayer";
+                    }
+                }
+                
+                @font-face {
+                    font-family: "Black_Brush";
+                    src: url("font/Black Brush.otf");
+                }
+                
+                @font-face {
+                    font-family: "Conversion";
+                    src: url("font/Conversion-K7n8X.ttf");
+                }
+                
+                @font-face {
+                    font-family: "Eigzii";
+                    src: url("font/Eigzii\ -\ Free\ Trial.ttf");
+                }
+                
+                @font-face {
+                    font-family: "Exwayer";
+                    src: url("font/Exwayer-X3eqa.ttf");
+                }
+                
+                @font-face {
+                    font-family: "Idriod";
+                    src: url("font/Idroid-yw13Z.otf");
+                }
+                
+                @font-face {
+                    font-family: "Comic_Sans_MS";
+                    src: url("font/COMIC.TTF");
+                }
+                
+                * {
+                    font-family: "Comic_Sans_MS";
+                    font-size: 14px;
+                }
+                
+                .cart-icon {
+                    background-image: url("resources/cartico.svg");
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                
+                .logo {
+                    background-image: url(resources/newtech-1.png);
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 150px;
+                    background-size: contain;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                
+                .logo1 {
+                    background-image: url(resources/newtech-1.png);
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 90px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                
+                .lg {
+                    display: block;
+                }
+                
+                @media(min-width:990px) {
+                    @media (max-width: 1650px) {
+                        .lg {
+                            display: none;
+                        }
+                    }
+                }
+                
+                .cr {
+                    height: 100px;
+                }
+                
+                @media(min-width:800px) {
+                    .ch {
+                        height: 850px;
+                    }
+                }
+                
+                .cbtn:hover {
+                    cursor: pointer;
+                }
+                
+                .bc_img {
+                    background-image: url(resources/search.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 400px;
+                    color: white;
+                }
+                
+                .addimg:hover {
+                    cursor: pointer;
+                }
+                
+                .pm {
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 65px;
+                }
+                
+                .pm1 {
+                    background-image: url("resources/payment_methods/visa_img.png");
+                }
+                
+                .pm2 {
+                    background-image: url("resources/payment_methods/mastercard_img.png");
+                }
+                
+                .pm3 {
+                    background-image: url("resources/payment_methods/paypal_img.png");
+                }
+                
+                .pm4 {
+                    background-image: url("resources/payment_methods/american_express_img.png");
+                }
+                
+                .btnh:hover {
+                    cursor: pointer;
+                }
+                
+                .logo2 {
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 90px;
+                    background-position: center;
+                    background-size: contain;
+                }
